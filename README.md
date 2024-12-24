@@ -20,7 +20,7 @@
 3. Вставьте приведённые ниже секции, заменив шаблоны на ваши данные, в поля:  
    - **What would you like ChatGPT to know about you to provide better responses?**  
    - **How would you like ChatGPT to respond?**  
-4. Измените разделы **Lifestyle**, **Professional Background**, **Goals**, **Interests** в соответствии с вашими потребностями, используя предоставленные примеры как основу.  
+4. Измените в инструкциях разделы **Lifestyle**, **Professional Background**, **Goals**, **Interests** на ваши данные, используя предоставленные примеры как основу.  
 5. Включите опцию **"Enable for new chats"**.  
 
 ## What would you like ChatGPT to know about you to provide better responses?
