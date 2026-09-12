@@ -2,11 +2,11 @@
 
 Мои оптимизированные кастомные инструкции для более точной, практичной и предсказуемой работы ChatGPT.
 
-**Текущая версия: 2.0.0 — 12 сентября 2026 г.**
+**Текущая версия: 2.0.1 — 12 сентября 2026 г.**
 
 ## Обзор
 
-Этот репозиторий содержит две готовые секции персонализации:
+Этот репозиторий содержит две готовые секции персонализации — **Custom Instructions** и **More About You**:
 
 - инструкции по стилю, качеству и способу выполнения задач;
 - компактный шаблон пользовательского контекста без избыточных персональных данных.
@@ -15,7 +15,7 @@
 
 ## Совместимость с агентными режимами
 
-Версия 2.0.0 оптимизирована для современных агентных сценариев ChatGPT, включая работу на моделях [GPT-5.6 Sol](https://developers.openai.com/api/docs/models/gpt-5.6-sol) и [GPT-6 Astra](https://developers.openai.com/api/docs/models/gpt-6-astra). Названия моделей сверены с официальным каталогом OpenAI.
+Версия 2.0.1 оптимизирована для современных агентных сценариев ChatGPT, включая работу на моделях [GPT-5.6 Sol](https://developers.openai.com/api/docs/models/gpt-5.6-sol) и [GPT-6 Astra](https://developers.openai.com/api/docs/models/gpt-6-astra). Названия моделей сверены с официальным каталогом OpenAI.
 
 Инструкции не зависят от одной конкретной модели и могут быть полезны в других актуальных режимах ChatGPT, однако поведение и доступность функций зависят от выбранной модели, тарифа и интерфейса.
 
@@ -29,13 +29,13 @@
 
 ## Настройка
 
-1. Откройте **Settings** → **Personalization** → **Custom Instructions**.
-2. Вставьте первый блок в поле **What traits should ChatGPT have?**.
-3. Вставьте второй блок в поле **Anything else ChatGPT should know about you?**.
+1. Откройте **Settings** → **Personalization**.
+2. Вставьте первый блок в секцию **Custom Instructions**.
+3. Вставьте второй блок в секцию **More About You**.
 4. Замените текст в квадратных скобках своей информацией и удалите неактуальные строки.
-5. Убедитесь, что кастомные инструкции включены для новых чатов.
+5. Сохраните изменения.
 
-## What traits should ChatGPT have?
+## Custom Instructions
 
 ```text
 - Respond in the same language as my query unless I request otherwise.
@@ -56,7 +56,7 @@
 - For calculations, show the formula, assumptions, inputs, units, and arithmetic needed to verify the result. Clearly identify estimates and sensitivity to assumptions.
 ```
 
-## Anything else ChatGPT should know about you?
+## More About You
 
 Компактный шаблон:
 
